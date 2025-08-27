@@ -2,22 +2,18 @@
 Welcome to my Wazuh SOC Lab repository!
 This project documents my journey of deploying, configuring, and mastering a Security Operations Center (SOC) using the open-source Wazuh SIEM/XDR platform.
 
-📌 Overview
-
+# 📌Overview
 This project demonstrates the end-to-end deployment and configuration of a comprehensive Security Operations Center (SOC) using the open-source Wazuh SIEM/XDR platform.
+The objective is to build a multi-machine virtual lab that simulates and defends against real-world security threats. 
 
-The objective is to build a multi-machine virtual lab that simulates and defends against real-world security threats. This required:
+# 🏗️Lab Architecture
 
-Troubleshooting networking issues
+The lab is built using VMware VMs and includes the following components:
 
-Fine-tuning service configurations
-
-Designing and testing custom detection rules
-
-The result is a fully functional security monitoring environment that follows the complete security lifecycle:
-
-Proactive defense
-
-Real-time detection
-
-Automated incident response
+- Wazuh Server: Runs the central Wazuh Manager, Indexer, and Dashboard.
+              Collects and correlates logs from agents, Suricata, and pfSense.
+- Windows Endpoint (Windows 11 Pro):Runs the Wazuh Agent for system monitoring and log forwarding.
+- Attacker Machine (Kali Linux):instance used to simulate threats.
+- pfSense Firewall:Provides firewall logs.
+                 Integrated into Wazuh for anomaly detection.
+- Suricata IDS/IPS: Monitors network traffic, Sends IDS alerts to Wazuh.
