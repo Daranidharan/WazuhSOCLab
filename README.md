@@ -86,6 +86,6 @@ This project demonstrates how to:
 **Note:** This is for educational purposes only. Do not use these techniques for unauthorized activities.
 
 📌 Connect with Me:  
-[LinkedIn](https://www.linkedin.com/in/www.linkedin.com/in/golsaf-bensekhar-1b153b1ab)  
+[LinkedIn](https://www.linkedin.com/in/www.linkedin.com/in/golsaf-bensekhar/)  
 [Medium](https://medium.com/@golsafbensekhar)  
 
