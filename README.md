@@ -85,7 +85,7 @@ Beyond technical skills, this project also reinforced critical SOC analyst pract
 
 ## 📄 Full Documentation
 You can download the complete SOC Home Lab guide here:  
-[📥 SOC_Home_Lab_Guide.pdf](docs/SOC_Home_Lab.pdf)
+[📥 SOC_Home_Lab_Guide.pdf](docs/SOC_Home_LAB.pdf)
 
 📌 Connect with Me:  
 [LinkedIn](https://www.linkedin.com/in/golsaf-bensekhar-1b153b1ab/)  
