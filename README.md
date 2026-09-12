@@ -17,7 +17,7 @@ The lab is built using VMware VMs and includes the following components:
                  Integrated into Wazuh for anomaly detection.
 - **Suricata IDS/IPS**: Monitors network traffic, Sends IDS alerts to Wazuh.
 
-![Lab Architecture](Lab_architecture.png)
+![Lab Architecture](Lab_Architecture.jpeg)
 
 *Figure 1: SOC Lab Architecture.*
 
