@@ -92,6 +92,6 @@ You can download the complete SOC Home Lab guide here:
 [📥 SOC_Home_Lab_Guide.pdf](docs/Soc_Home_LAB.pdf)
 
 📌 Connect with Me:  
-[LinkedIn](https://www.linkedin.com/in/golsaf-bensekhar-1b153b1ab/)  
+[LinkedIn](https://www.linkedin.com/in/daranidharan-l-174657252)  
 [Medium](https://medium.com/@golsafbensekhar)  
 
