@@ -39,19 +39,6 @@ The lab is built using VMware VMs and includes the following components:
 - Install and configure Suricata on Windows with Npcap and detection rules.
 - Integrate Suricata logs with Wazuh to centralize monitoring and alerts.
 
-[pfSense Integration 📄 PDF Guide](docs/Pfsense_integration.pdf)
-
-**Summary:**
-- Deploy pfSense as a virtual firewall in VMware to control and monitor network traffic.
-- Configure remote logging and forward pfSense events into Wazuh for analysis.
-- Create custom decoders and rules in Wazuh to detect allowed, blocked, and authentication events.
-
-[VirusTotal Integration 📄 PDF Guide](docs/VirusTotal_integration.pdf)
-
-**Summary:**
-- Obtain a VirusTotal API key and configure it in the Wazuh Manager for integration.
-- Set up Wazuh agents to monitor directories in real time and trigger VirusTotal lookups.
-- Enrich alerts with VirusTotal reputation data to speed up triage and threat analysis.
 
 [File integrity monitoring 📄 PDF Guide](docs/File_integrity_monitoring.pdf)
 
@@ -66,17 +53,6 @@ The lab is built using VMware VMs and includes the following components:
 - Understand Windows Event Logs, key categories, and critical Event IDs for visibility into system and security activities.
 - Deploy Sysmon to capture detailed system events and enhance detection of suspicious or attacker behavior.
 - Ingest Sysmon logs into Wazuh for centralized monitoring, correlation, and custom rule-based threat detection.
-
-# 🔐 Brute Force Attack: Simulation, Detection & Defense:
-
-[Brute Force Attack Simulation & Wazuh Investigation 📄 PDF Guide](docs/SSH_Brute_Force.pdf)
-
-**Summary:**
-- Simulate an SSH brute force attack in a controlled lab using Hydra to generate repeated failed login attempts.
-- Detect malicious activity in Wazuh through alerts, Windows Event Logs (e.g., Event ID 4625), and correlation rules highlighting authentication failures.
-- Apply defensive measures such as strong passwords, MFA, account lockouts, and Wazuh active responses to prevent and mitigate brute force threats.
-
-**Important:** perform these activities only in your isolated lab environment (the VMs described above) or on systems you own/are authorized to test. Never run brute-force activity against third-party or production systems.
 
 # Conclusion
 his SOC home lab project successfully demonstrated how open-source tools can be combined to build a functional security monitoring and detection environment. By integrating **Wazuh** as the central SIEM, **pfSense** as the firewall, **Suricata** as the IDS/IPS, and **Sysmon** for endpoint visibility, the lab replicated key components of a modern SOC. The addition of **VirusTotal** enrichment and **File Integrity Monitoring** further enhanced detection capabilities and contextual analysis.
