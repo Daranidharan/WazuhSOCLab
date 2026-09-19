@@ -13,8 +13,6 @@ The lab is built using VMware VMs and includes the following components:
               Collects and correlates logs from agents, Suricata, and pfSense.
 - **Windows Endpoint (Windows 11 Pro)**:Runs the Wazuh Agent for system monitoring and log forwarding.
 - **Attacker Machine (Kali Linux)**:instance used to simulate threats.
-- **pfSense Firewall**:Provides firewall logs.
-                 Integrated into Wazuh for anomaly detection.
 - **Suricata IDS/IPS**: Monitors network traffic, Sends IDS alerts to Wazuh.
 
 ![Lab Architecture](Lab_Architecture.jpeg)
@@ -68,6 +66,5 @@ You can download the complete SOC Home Lab guide here:
 [📥 SOC_Home_Lab_Guide.pdf](docs/Soc_Home_LAB.pdf)
 
 📌 Connect with Me:  
-[LinkedIn](https://www.linkedin.com/in/daranidharan-l-174657252)  
-[Medium](https://medium.com/@golsafbensekhar)  
+[LinkedIn](https://www.linkedin.com/in/daranidharan-l-174657252)
 
